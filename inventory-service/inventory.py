@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 import rook
 
 app = Flask(__name__)
-rook.start(labels={"env": "dev"}, token='09243394571cc46f395ba2cdd7805b47b54c0b707847392067f8878b17fc5012')
+rook.start(labels={"env": "dev"})
 
 
 @app.route("/")
