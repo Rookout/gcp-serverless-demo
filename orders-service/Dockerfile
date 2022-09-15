@@ -7,6 +7,7 @@ ENV PYTHONUNBUFFERED True
 ENV APP_HOME /app
 WORKDIR $APP_HOME
 COPY . ./
+# https://www.rookout.com/blog/embedding-source-code-version-information-in-docker-images/
 RUN mv ./git_folder ./.git
 
 # Install production dependencies.
