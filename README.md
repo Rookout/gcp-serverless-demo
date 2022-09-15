@@ -23,6 +23,7 @@ graph LR;
 # Demo setup requirements
 - Rookout Token. Register [here](https://app.rookout.com) to get one. it's free :) 
 - GCP account
+- See [makefile](./makefile) for deployment instructions
 - ☕️
 
 # More about Rookout
