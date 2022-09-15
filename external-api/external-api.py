@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 import rook
 import requests
 app = Flask(__name__)
-rook.start(labels={"env": "dev"})
+rook.start()
 
 ORDERS_SRV_URL = "https://orders-service-g7jhom5g6q-uc.a.run.app"
 

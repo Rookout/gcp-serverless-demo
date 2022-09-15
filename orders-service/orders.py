@@ -4,7 +4,7 @@ import rook
 import requests
 
 app = Flask(__name__)
-rook.start(labels={"env": "dev"})
+rook.start()
 
 INVENTORY_SRV_URL = "https://inventory-service-g7jhom5g6q-uc.a.run.app"
 SHIPPING_SRV_URL = "https://shipping-service-g7jhom5g6q-uc.a.run.app"
