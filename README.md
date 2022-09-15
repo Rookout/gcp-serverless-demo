@@ -21,16 +21,17 @@ graph LR;
 ```
 
 # Setup instructions
-- Register [here](https://app.rookout.com) to get your ROOKOUT TOKEN. it's free :) 
-- Run the following commands at the repo root folder
-```
-export ROOKOUT_TOKEN=<your token>
-export GCP_PROJECT=<your gcp project id>
-make deploy-all
-```
-- Take a look at the [makefile](./makefile) to better understand the deployment flow
-- Grab a cup of ☕️
-- Happy debugging ! 🔎
+1. Register [here](https://app.rookout.com) to get your ROOKOUT TOKEN. it's free :) 
+2. Run the following commands at the repo root folder
+    
+    ```
+    export ROOKOUT_TOKEN=<your token>
+    export GCP_PROJECT=<your gcp project id>
+    make deploy-all
+    ```
+3. Take a look at the [makefile](./makefile) to better understand the deployment flow
+4. Grab a cup of ☕️
+5. Happy debugging ! 🔎
 
 # More about Rookout
 
