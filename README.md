@@ -20,6 +20,11 @@ graph LR;
     Orders_Service-->Shipping_Service;
 ```
 
+# Demo setup requirements
+- Rookout Token. Register [here](https://app.rookout.com) to get one. it's free :) 
+- GCP account
+- ☕️
+
 # More about Rookout
 
 Rookout makes Developer-First Observability tools.
