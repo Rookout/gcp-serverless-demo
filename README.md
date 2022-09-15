@@ -20,11 +20,17 @@ graph LR;
     Orders_Service-->Shipping_Service;
 ```
 
-# Demo setup requirements
-- Rookout Token. Register [here](https://app.rookout.com) to get one. it's free :) 
-- GCP account
-- See [makefile](./makefile) for deployment instructions
-- ☕️
+# Setup instructions
+- Register [here](https://app.rookout.com) to get your ROOKOUT TOKEN. it's free :) 
+- Run the following commands at the repo root folder
+```
+export ROOKOUT_TOKEN=<your token>
+export GCP_PROJECT=<your gcp project id>
+make deploy-all
+```
+- Take a look at the [makefile](./makefile) to better understand the deployment flow
+- Grab a cup of ☕️
+- Happy debugging ! 🔎
 
 # More about Rookout
 
